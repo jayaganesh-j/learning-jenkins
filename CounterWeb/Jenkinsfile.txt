@@ -1,6 +1,0 @@
-node {
-	stage 'MavenCompile'
-		bat 'd:'
-		bat "cd d:\java\CounterWeb"
-		bat "mvn clean package"
-}
